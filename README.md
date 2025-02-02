@@ -1,9 +1,23 @@
-# VoiceGenie Daily KPI Automation
+# VoiceGenie Daily KPI Dashboard
 
-This script automates the generation and presentation of daily KPIs for the VoiceGenie product.
+## Overview
+Automated system for generating and reporting daily KPIs for VoiceGenie platform.
 
-## Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/voicegenie-kpi.git
-   cd voicegenie-kpi
+## Features
+- MongoDB data integration
+- Daily KPI calculation
+- Slack notifications
+- Historical data storage
+- Previous day comparisons
+
+## Prerequisites
+- Python 3.8+
+- MongoDB
+- Slack workspace with bot token
+
+## Installation
+
+1. Clone repository:
+```bash
+git clone https://github.com/akshaykumarnyo/daily_kpi_dashboard.git
+cd daily_kpi_dashboard
